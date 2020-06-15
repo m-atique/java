@@ -326,30 +326,200 @@
 // document.write( table_num2 + " "+"x"+ " "+ "9"  +" "+"="+ " "+ table_num2*9+ "<br>")
 // document.write( table_num2 + " "+"x"+ " "+ "10"  +" "+"="+ " "+ table_num2*10+ "<br>")
 
-//___________ Task # 04-05________________
-var subject1 =prompt("Enter your 1st subject");
-var subject2 =prompt("Enter your 2nd subject");
-var subject3 =prompt("Enter your 3rd subject");
+// //___________ Task # 04-05________________
+// var subject1 =prompt("Enter your 1st subject");
+// var subject2 =prompt("Enter your 2nd subject");
+// var subject3 =prompt("Enter your 3rd subject");
 
-var total_marks =100;
+// var total_marks =100;
 
-var subject1_marks =prompt("Enter your obtained marks in"+ " "+" "+ subject1);
-var subject2_marks =prompt("Enter your obtained marks in"+" " +" "+ subject2);
-var subject3_marks =prompt("Enter your obtained marks in"+ " " + subject3);
+// var subject1_marks =prompt("Enter your obtained marks in"+ " "+" "+ subject1);
+// var subject2_marks =prompt("Enter your obtained marks in"+" " +" "+ subject2);
+// var subject3_marks =prompt("Enter your obtained marks in"+ " " + subject3);
 
-var headings = ("<b>" + "Subjects" + "<b>" +"   "+ "Total marks" + "  "+ "Obtained marks"+"    "+ "Percentage" +   "%" + "<br>")
-var result_subject1 = ("<b>" + subject2 + "<b>" +"------   "+ total_marks + " ------ "+ subject2_marks+" ------   "+ subject2_marks*100/total_marks +   "%" + "<br>")
-var result_subject2 = ("<b>" + subject2 + "<b>" +"------   "+ total_marks + " ------ "+ subject2_marks+"  ------  "+ subject2_marks*100/total_marks +   "%" + "<br>")
-var result_subject3 = ("<b>" + subject3 + "<b>" +"------   "+ total_marks + " ------ "+ subject3_marks+"  ------  "+ subject3_marks*100/total_marks +   "%" + "<br>")
-var Total_result = ("<b>" + "Total" + "<b>" +" ------  "+ total_marks*3 + "------  "+ subject3_marks+subject2_marks+subject1_marks +"  ------  "+ subject3_marks+subject2_marks+subject1_marks*100/total_marks*3 +   "%" + "<br>")
+// var headings = ("<b>" + "Subjects" + "<b>" +"   "+ "Total marks" + "  "+ "Obtained marks"+"    "+ "Percentage" +   "%" + "<br>")
+// var result_subject1 = ("<b>" + subject2 + "<b>" +"------   "+ total_marks + " ------ "+ subject2_marks+" ------   "+ subject2_marks*100/total_marks +   "%" + "<br>")
+// var result_subject2 = ("<b>" + subject2 + "<b>" +"------   "+ total_marks + " ------ "+ subject2_marks+"  ------  "+ subject2_marks*100/total_marks +   "%" + "<br>")
+// var result_subject3 = ("<b>" + subject3 + "<b>" +"------   "+ total_marks + " ------ "+ subject3_marks+"  ------  "+ subject3_marks*100/total_marks +   "%" + "<br>")
+// var Total_result = ("<b>" + "Total" + "<b>" +" ------  "+ total_marks*3 + "------  "+ subject3_marks+subject2_marks+subject1_marks +"  ------  "+ subject3_marks+subject2_marks+subject1_marks*100/total_marks*3 +   "%" + "<br>")
 
-document.write(headings)
-document.write(result_subject1)
-document.write(result_subject1)
-document.write(result_subject3)
-document.write(Total_result)
+// document.write(headings)
+// document.write(result_subject1)
+// document.write(result_subject1)
+// document.write(result_subject3)
+// document.write(Total_result)
 
 //  =================================================================================
                                     // CHAPTER 09-11
 // ===================================================================================
 // //___________ Task # 1________________
+// var city = prompt("Enter city name");
+// if (city == "karachi"){
+//     document.write("Welcome to City of Lights");
+// }
+
+// //___________ Task # 2________________
+// var gender = prompt("Enter your gender");
+// if (gender == "male"){
+//      document.write("Good Morning Sir!");
+//  }
+//  if (gender == "female"){
+//     document.write("Good Morning Ma'am!");
+// }
+//___________ Task # 3________________
+// var Signal = prompt("Enter traffic signal light colour");
+// if (Signal == "red"){
+//      document.write("Must Stop");
+//  }
+//  if (Signal == "yellow"){
+//     document.write("Ready to move");
+// }
+// if (Signal == "green"){
+//     document.write("Move Now");
+// }
+// //___________ Task # 4________________
+
+// var fuel = prompt("Enter remaining fuel in tank ");
+// if (fuel < 0.25){
+//     alert("Please refill the fuel in your car")
+// }
+// //___________ Task # 5________________
+// // a.
+//  var a = 4;
+// if (++a === 5){
+// alert("given condition for variable a is true");
+// document.write("a.   statement 01 is running"+ "<br>")
+// }
+
+// // b.
+//  var b = 82;
+// if (b++ === 83){
+// alert("given condition for variable b is true");
+// }
+// document.write("b. Condition   is false"+ "<br>")
+// // c.
+//  var c = 12;
+// if (c++ === 13){
+// alert("condition 1 is true");
+// }
+// if (c === 13){
+// alert("condition 2 is true");
+// }
+// if (++c < 14){
+// alert("condition 3 is true");
+// }
+// if(c === 14){
+// alert("condition 4 is true");
+// }
+// document.write("c.  Condition 02 is true"+ "<br>")
+
+
+// // d.
+//  var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+// alert("The cost equals");
+// }
+// document.write("d.    Given Condition  is true"+ "<br>")
+
+
+// //e.
+//  if (true){
+// alert("True");
+// }
+// if (false){
+// alert("False");
+// }
+// document.write("e.   true"+ "<br>")
+
+// //___________ Task # 6________________
+
+// var total_marks =100;
+
+// var subject1_marks =prompt("Enter your obtained marks in subject1");
+// var subject2_marks =prompt("Enter your obtained marks in subject2");
+// var subject3_marks =prompt("Enter your obtained marks in subject3");
+
+//  var obtained_marks = (+subject3_marks) + (+subject2_marks) + (+subject1_marks);
+// var percentage = obtained_marks*100/300
+
+// document.write("<h2>"+ "Marks Sheet"+"</h2>")
+// document.write("Total Marks"+ "="+total_marks  +"<br>")
+// document.write("Obtained Marks"+ "="+obtained_marks  +"<br>")
+// document.write("Percentage"+ "="+ percentage  + "%"+"<br>")
+// if (percentage >= 80){
+//     document.write("Grade A" +"<br>"+"Excellent" +"<br>")
+// }
+// else if  (percentage >= 70){
+//     document.write("Grade B" +"<br>"+"Good" +"<br>")
+// }
+//  else if (percentage >= 60){
+//     document.write("Grade c" +"<br>"+"You need to improve" +"<br>")
+// }
+// else if (percentage < 60){
+//     document.write("Fail" +"<br>"+"Sorry" +"<br>")
+// }
+
+// //___________ Task # 7________________
+// var my_num =8;
+// var user_guess =prompt("Enter your guess")
+// if(+user_guess == my_num){
+//     document.write("Bingo! Correct answer")
+// }
+// if(+user_guess + 1 == my_num){
+//     document.write("Close enough to the correct answer")
+// }
+
+// //___________ Task # 8________________
+
+// var user_guess =prompt("Enter your Number")
+// if(+user_guess%3 == 0){
+//     alert("Your Given number is Divisible by 03")
+// }
+
+//___________ Task # 9________________
+
+// var  user_num= prompt("Enter your Number")
+// if(+user_num%2 == 0){
+//     alert("Your Given number Even")
+// }
+// if(+user_num%2 != 0){
+//     alert("Your Given number Odd")
+// }
+
+// //___________ Task # 10________________
+//  var temprature =prompt("Enter Temprature")
+//  if (temprature > 40){
+//      alert("It is too hot outside.")
+//  }
+//  if (temprature > 30){
+//     alert("The Weather today is Normal.")
+// }
+// if (temprature > 20){
+//     alert("Today’ Weather is cool.")
+// }
+// if (temprature > 10){
+//     alert("OMG! Today’s weather is so Cool.")
+// }
+
+//___________ Task # 11________________
+var first_num = prompt("Enter your first number")
+var sign = prompt("Enter your  oprater sign")
+var second_num = prompt("Enter your Second number")
+
+if (sign == "+"){
+    alret((+first_num)+(+second_num));
+}
+if (sign == "-"){
+    alret((+first_num)-(+second_num));
+}
+if (sign == "*"){
+    alret((+first_num)*(+second_num));
+}
+if (sign == "/"){
+    alret((+first_num)/(+second_num));
+}
+if (sign == "%"){
+    alret((+first_num)%(+second_num));
+}
