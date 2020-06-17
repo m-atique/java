@@ -630,5 +630,90 @@
 
 // //___________ Task # 1________________
 
+// var pets =[];
 
+// // //___________ Task # 2_______________
+
+// var pets2 = new Array()
+
+
+// // //___________ Task # 3________________
+// var cities =["karachi","nwl","lahore"]
+
+// // //___________ Task # 4________________
+
+// var numbers = [1,2,3,4,5]
+
+// // //___________ Task # 5________________
+
+// var bol =[true,false]
+
+// // //___________ Task # 6________________
+// var  mixed = [1,2,"sindh","punjab",true]
+
+// //___________ Task # 7________________
+// var degree =[ "SSC", "HSC", "BCS","BS", "BCOM", "MS", "M.Phil." , "PhD"]
+// document.write("<h2>"+"Qualifications" +"</h2>")
+// for (i = 0 ; i< degree.length; i++){
+//     document.write(i+1 + ")"+  " "+" "+ degree[i] + "<br>")
+// }
+
+
+//  //___________ Task # 8________________
+// var student_name =["SAAD","REHAN", "DANISH"]
+// var student_marks =[480,400,350]
+// for(i=0; i<student_name.length;i++){
+//     for (j=i; j<student_marks.length;j++){
+//         document.write("Score of" +" " + student_name[i]+ " "+ "is"+ " "+student_marks[j] + "."+ "percentage is"+ " "+ student_marks[j]*100/500 + "%"+ "<br>")
+//         break;
+//     }
+  
+// }
+
+
+// //___________ Task # 9________________
+// var colors =["yellow","green","blue"]
+// document.write( "Basic Array of colors  ="+" "+ colors +"<br>")
+
+// var user_color = prompt("Enter your color to add at start");
+// colors.unshift(user_color)
+// document.write( " Array  after addition of color at start   ="+" "+ colors +"<br>")
+
+// var user_color2 = prompt("Enter your color to add at End");
+// colors.push(user_color2)
+// document.write( " Array  after addition of color at End   ="+" "+ colors +"<br>")
+
+// colors.unshift("brown","magenta")
+// document.write( " Array  after addition of  02 new colors at start   ="+" "+ colors +"<br>")
+
+// colors.splice(0,1)
+// document.write( " Array  after  01 deletion of color from start   ="+" "+ colors +"<br>")
+
+// colors.pop()
+// document.write( " Array  after  01 deletion of color from end   ="+" "+ colors +"<br>")
+
+// var index_of_color =prompt("enter the index number")
+// var color_at_index =prompt("enter the color")
+// colors[index_of_color] = color_at_index;
+// document.write( " Array  after  addition at specific index   ="+" "+ colors +"<br>")
+
+
+// var index_of_color2 =prompt("enter the index number")
+// var number_of_deletion =prompt("enter the number of deletion")
+// colors.splice(index_of_color2,number_of_deletion)
+// document.write( " Array  after  addition at  required deletion   ="+" "+ colors +"<br>")
+
+// //___________ Task # 10________________
+// var score_of_students =[100,90,56,67,34,98,96]
+// document.write("score of students ="+""+ score_of_students +"<br>")
+
+// document.write(" Ordered score of students ="+""+ score_of_students.sort((a,b) =>a -b) +"<br>")
+
+ // //___________ Task # 11________________
+// var cities =["karchi","lahore","islamabad","haiderabad","multan"]
+// var selected_cities = cities.slice(1,4)
+// document.write(selected_cities+"<br>")
+
+
+//___________ Task # 11________________
 
