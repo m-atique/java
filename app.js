@@ -503,23 +503,132 @@
 //     alert("OMG! Today’s weather is so Cool.")
 // }
 
-//___________ Task # 11________________
-var first_num = prompt("Enter your first number")
-var sign = prompt("Enter your  oprater sign")
-var second_num = prompt("Enter your Second number")
+// //___________ Task # 11________________
+// var first_num = prompt("Enter your first number")
+// var sign = prompt("Enter your  oprater sign")
+// var second_num = prompt("Enter your Second number")
 
-if (sign == "+"){
-    alret((+first_num)+(+second_num));
-}
-if (sign == "-"){
-    alret((+first_num)-(+second_num));
-}
-if (sign == "*"){
-    alret((+first_num)*(+second_num));
-}
-if (sign == "/"){
-    alret((+first_num)/(+second_num));
-}
-if (sign == "%"){
-    alret((+first_num)%(+second_num));
-}
+// if (sign === "+"){
+//     alret((+first_num)+(+second_num));
+// }
+// if (sign == "-"){
+//     alret((+first_num)-(+second_num));
+// }
+// if (sign == "*"){
+//     alret((+first_num)*(+second_num));
+// }
+// if (sign == "/"){
+//     alret((+first_num)/(+second_num));
+// }
+// if (sign == "%"){
+//     alret((+first_num)%(+second_num));
+// }
+
+//  =================================================================================
+                                    // CHAPTER 12-13
+// ===================================================================================
+// //___________ Task # 1________________
+// var  word = prompt("Enter Word");
+// for (i=0;i<word.length;++i){
+//     // document.write(word[i].toUpperCase()+"<br>")
+//     if(word[i] == word[i].toUpperCase()){
+//         document.write("the charcter"+" "+"---- "+ word[i]+" "+"---- "+ "is a UPPER CASE character"+"<br>")
+//     }
+//     if(word[i] == word[i].toLowerCase()) {
+//         document.write("the charcter"+" "+"---- "+ word[i]+" "+"---- "+ "is a lower case character"+"<br>")
+//     }
+// }
+
+// //___________ Task # 2________________
+// var integer1 =prompt("Enter integer1")
+// var integer2 =prompt("Enter integer2")
+
+// if (integer1 > integer2){
+//     alert("Integer 01 is greater than Integer 02")
+// }
+// else if (integer2 > integer1){
+//     alert("Integer 02 is greater than Integer 01")
+// }
+// else if (integer2 = integer1){
+//     alert("Integer 02 is equal to Integer 01")
+// }
+
+// //___________ Task # 3________________
+// var number =+prompt("Enter number")
+
+// if (number > 0){
+//     alert("Number is Positive")
+// }
+// else if (number < 0){
+//     alert("Number is Negitive")
+// }
+// else {
+//     alert("Number is zero")
+// }
+
+
+// //___________ Task # 4________________
+// var  word = prompt("Enter Word");
+// for (i=0;i<word.length;++i){
+//     if(word[i] == "a" ||word[i] == "e"||word[i] == "i"||word[i] == "o"||word[i] == "u"){
+//         document.write("The charcter"+" "+"---- "+ word[i]+" "+"---- "+ "is a Vowal"+"<br>")
+//     }
+//     else{
+//         document.write(""+"<br>")
+//     }
+// }
+
+// //___________ Task # 5________________
+
+// var my_passward = 12345;
+// var user_passward = prompt("enter your passward");
+
+// if (user_passward == my_passward && user_passward != "" ){
+//     alert("Correct! The password you entered matches the original password")
+// }
+// if (user_passward != my_passward && user_passward != "" ){
+//     alert("Incorrect password")
+// }
+// if (user_passward == ""){
+//     alert(" Please enter your password")
+// }
+
+
+// //___________ Task # 6________________
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
+// }
+// else {
+// greeting = "Good evening";
+// }
+
+
+// //___________ Task # 7________________
+
+// var time =prompt("Enter your time in 24hours format")
+// if(time > 0000 && time <= 1200){
+//     alert("Good Morning")
+// }
+// else if(time > 1200 && time <= 1700) {
+//     alert("Good Afternoon") 
+// }
+// else if(time > 1700 && time <= 2100) {
+//     alert("Good Evening") 
+// }
+// else if(time > 2100 && time <= 2359) {
+//     alert("Good Night") 
+// }
+
+
+
+//  =================================================================================
+                                    // CHAPTER 12-13
+// ===================================================================================
+
+// //___________ Task # 1________________
+
+
+
