@@ -1,0 +1,9 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+}
+H1{
+    background-image: repeating-linear-gradient(sandybrown,lightyellow);
+    padding: 10px;
+    color: black;
+}

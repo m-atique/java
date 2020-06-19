@@ -625,7 +625,7 @@
 
 
 //  =================================================================================
-                                    // CHAPTER 12-13
+                                    // CHAPTER 14-16
 // ===================================================================================
 
 // //___________ Task # 1________________
@@ -715,5 +715,120 @@
 // document.write(selected_cities+"<br>")
 
 
-//___________ Task # 11________________
+// //___________ Task # 12________________
+// var arr = ["This", "is","my","cat"];
+// var sentence = arr.join(" ");
+// document.write(arr +"<br>")
+// document.write(sentence +"<br>")
 
+
+// //___________ Task # 13________________
+// var devices =["keyboard", "mouse","printer","monitor"]
+
+// document.write("OUT:"+ "<br> " +devices.shift()+"<br>")
+// document.write("OUT:"+ "<br> " +devices.shift()+"<br>")
+// document.write("OUT:"+ "<br> " +devices.shift()+"<br>")
+// document.write("OUT:"+ "<br> " +devices.shift()+"<br>")
+
+// //___________ Task # 14________________
+// var devices =["keyboard", "mouse","printer","monitor"]
+
+// document.write("OUT:"+ "<br> " +devices.pop()+"<br>")
+// document.write("OUT:"+ "<br> " +devices.pop()+"<br>")
+// document.write("OUT:"+ "<br> " +devices.pop()+"<br>")
+// document.write("OUT:"+ "<br> " +devices.pop()+"<br>")
+
+
+
+//  =================================================================================
+                                    // CHAPTER 14-16
+// ===================================================================================
+
+// //___________ Task # 1________________
+
+// var array_of_arrays =[[],[],[]]
+// document.write(array_of_arrays)
+
+// //___________ Task # 2________________
+// var matrix =[[0,1,2,3],[1,0,1,2],[2,1,0,1]]
+// for (i = 0 ;i<matrix.length;i++){
+//     document.write(matrix[i] +"<br>")
+// }
+
+// //___________ Task # 3________________
+// for (i=1;i<= 10; i++){
+//     document.write(i +"<br>")
+// }
+// //___________ Task # 4________________
+// var table_number= prompt("Enter the number for table")
+// var table_length= prompt("Enter the length for table")
+
+// document.write("<h2>"+ "Table of"+" "+ table_number+" "+"for the length up to"+" "+table_length+"</h2>")
+
+// for (i=1; i<=table_length;i++){
+//     document.write(table_number +" "+ "x"+ " "+ i + " "+" ="+ table_number*i+"<br>")
+// }
+// //___________ Task # 5________________
+
+// var fruits =["apple","banana","mango","orange"]
+// for (i=0;i<fruits.length;i++){
+//     document.write("The fruit at index"+" "+ i + " "+"is"+" "+ fruits[i] + "<br>")
+// }
+//___________ Task # 6________________
+
+// document.write("<br>"+ "<h2>"+ "Counting:"+ "</h2>"+"<br>")
+//  for (i=1;i<=15;i++){
+//     document.write(i +" "+ ",")
+// }
+// document.write("<br>"+ "<h2>"+ "Reverse Counting:"+ "</h2>"+"<br>")
+// for(i=10 ;i>=1; i--){
+//     document.write(i +" "+ ",")
+// }
+
+
+// document.write("<br>"+ "<h2>"+ "Even:"+ "</h2>"+"<br>")
+// for (i=0; i <= 20 ; i++){
+//     if(i%2 == 0){
+//     document.write(i +" "+ ",")
+// }
+// }
+
+// document.write("<br>"+ "<h2>"+ "ODD:"+ "</h2>"+"<br>")
+// for (i=0; i <= 20 ; i++){
+//     if(i%2 != 0){    
+//     document.write(i +" "+ ",")
+// }
+// }
+
+// document.write("<br>"+ "<h2>"+ "Series:"+ "</h2>"+"<br>")
+// for (i=2; i <= 20 ; i++){
+//     if(i%2 == 0){    
+//     document.write(i + "k "+" "+ ",")
+// }
+// }
+//___________ Task # 07 ________________
+//  var bakery_list = ["cake", "apple pie", "cookie", "chips", "patties"]
+// var user_input =prompt("Enter your desired item")
+// for( var i=0; i<bakery_list.length;i++){
+//     if(user_input === bakery_list[i]){
+//         document.write(bakery_list[i]+" "+ "is avaialble at"+" "+ "index"+" "+ i +" "+"in our bakery"+"<br>" )
+//         break;
+//      }else 
+//      document.write(user_input+" "+ "is  not avaialble  in our bakery" +"<br>")
+//      break;
+//     } 
+    
+
+//___________ Task # 8________________
+// A_list = [24, 53, 78, 91, 12]
+// document.write("Array items:"+" "+ A_list + "<br>"+ "Largest number in array is"+" "+ Math.max(A_list))
+
+//___________ Task # 9________________
+
+
+// //___________ Task # 10________________
+// for (var i= 0; i<=100 ; i++){
+//    if( i%5 == 0){
+//     document.write(i)
+// }
+// }
