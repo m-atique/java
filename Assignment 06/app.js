@@ -147,34 +147,57 @@
 // document.write("Original Number="+" "+number +"<br>");
 // document.write("Absolute Number="+" "+number1+"<br>");
 
-//___________ Task # 4________________
+// //___________ Task # 4________________
+// var dice_user = prompt("Enter player name")
+
+// var dice = Math.random()*6
+// dice =Math.floor(dice);
+// document.write("Value of DICE for  "+ dice_user + " = "+ dice)
+
+// //___________ Task # 5________________
+// var Head_selector = prompt("Enter player1 name")
+// var Tail_selector = prompt("Enter player2 name")
+// var coin = Math.random()*2
+// coin =Math.floor(coin);
+// if(coin === 1){
+//     document.write(Head_selector +" "+ " win the toss")
+// }else
+// document.write(Tail_selector +" "+ " win the toss")
+
+// //___________ Task # 6________________
+// var selected_user = prompt("Enter player name")
+
+// var num = Math.random()*100
+// num =Math.floor(num);
+// document.write("Winner of luckydraw is  "+ selected_user + " With number= "+ num)
 
 
-
-//___________ Task # 5________________
-
-
-
-//___________ Task # 6________________
+// //___________ Task # 7________________
+// var weight = prompt("please enter your age" );
+// weight =weight.toLowerCase()
 
 
-
-//___________ Task # 7________________
-var weight = prompt("please enter your age" );
-weight =weight.toLowerCase()
-
-
-if(weight.indexOf("k") != -1){
-weight= weight.slice(0, weight.indexOf("k"))
-var weight_int = parseInt(weight);
-document.write("Your weight is:"+" "+ weight_int);
-}
-else{
-    var weight_int = parseInt(weight);
-document.write("Your weight is:"+" "+ weight_int);
-}
+// if(weight.indexOf("k") != -1){
+// weight= weight.slice(0, weight.indexOf("k"))
+// var weight_int = parseInt(weight);
+// document.write("Your weight is:"+" "+ weight_int);
+// }
+// else{
+//     var weight_int = parseInt(weight);
+// document.write("Your weight is:"+" "+ weight_int);
+// }
 
 //___________ Task # 8________________
+var my_num = Math.random()*10
+my_num= Math.floor(my_num)
+
+var User_num = prompt("Enter your  number")
+
+if(User_num === my_num){
+    document.write( "Congragulation win the Game")
+}else
+document.write("OOOOPS You Loss the Game")
+
 
 
 

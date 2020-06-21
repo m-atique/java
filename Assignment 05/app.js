@@ -504,25 +504,25 @@
 // }
 
 // //___________ Task # 11________________
-// var first_num = prompt("Enter your first number")
-// var sign = prompt("Enter your  oprater sign")
-// var second_num = prompt("Enter your Second number")
+var first_num = prompt("Enter your first number")
+var sign = prompt("Enter your  oprater sign")
+var second_num = prompt("Enter your Second number")
 
-// if (sign === "+"){
-//     alret((+first_num)+(+second_num));
-// }
-// if (sign == "-"){
-//     alret((+first_num)-(+second_num));
-// }
-// if (sign == "*"){
-//     alret((+first_num)*(+second_num));
-// }
-// if (sign == "/"){
-//     alret((+first_num)/(+second_num));
-// }
-// if (sign == "%"){
-//     alret((+first_num)%(+second_num));
-// }
+if (sign === "+"){
+    alert((+first_num)+(+second_num));
+}
+if (sign === "-"){
+    alret((+first_num)-(+second_num));
+}
+if (sign === "*"){
+    alret((+first_num)*(+second_num));
+}
+if (sign === "/"){
+    alret((+first_num)/(+second_num));
+}
+if (sign === "%"){
+    alret((+first_num)%(+second_num));
+}
 
 //  =================================================================================
                                     // CHAPTER 12-13
