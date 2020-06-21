@@ -113,34 +113,39 @@
 // var poped_char = user_array.pop();
 // document.write("Last character of input:" +" "+poped_char )
 //___________ Task # 18________________
-var text ="The quick brown fox jumps over the lazy dog"
-document.write("TEXT"+" "+ text +"<br>")
+// var text ="The quick brown fox jumps over the lazy dog"
+// document.write("TEXT"+" "+ text +"<br>")
 
-var number = occurrences(text,"the")
-document.write("number of occurrences of word the is"+" "+ number +"<br>")
-//___________ Task # 13________________
-//___________ Task # 13________________
-
-
-
-
-
-
-
-
+// var number = occurrences(text,"the")
+// document.write("number of occurrences of word the is"+" "+ number +"<br>")
 
 //  =================================================================================
-                                    // CHAPTER 
+                                    // CHAPTER 26-30        (rounding number and control string)
 // ===================================================================================
- //___________ Task # 1________________
-
-
+//  //___________ Task # 1________________
+// var number = 3.45214
+// var number1= Math.round(number);
+// var number2 = Math.ceil(number);
+// var number3 = Math.floor(number);
+// document.write("Original Number="+number +"<br>");
+// document.write("Rounded Number="+number1+"<br>");
+// document.write("Ceiling Number="+number2+"<br>");
+// document.write("Floor Number="+number3+"<br>");
 
  //___________ Task # 2________________
-
+// var number = -2.65214
+// var number1= Math.round(number);
+// var number2 = Math.ceil(number);
+// var number3 = Math.floor(number);
+// document.write("Original Number="+number +"<br>");
+// document.write("Rounded Number="+number1+"<br>");
+// document.write("Ceiling Number="+number2+"<br>");
+// document.write("Floor Number="+number3+"<br>");
 //___________ Task # 3________________
-
-
+// var number = -23434
+// var number1 = Math.abs(number)
+// document.write("Original Number="+" "+number +"<br>");
+// document.write("Absolute Number="+" "+number1+"<br>");
 
 //___________ Task # 4________________
 
@@ -155,8 +160,19 @@ document.write("number of occurrences of word the is"+" "+ number +"<br>")
 
 
 //___________ Task # 7________________
+var weight = prompt("please enter your age" );
+weight =weight.toLowerCase()
 
 
+if(weight.indexOf("k") != -1){
+weight= weight.slice(0, weight.indexOf("k"))
+var weight_int = parseInt(weight);
+document.write("Your weight is:"+" "+ weight_int);
+}
+else{
+    var weight_int = parseInt(weight);
+document.write("Your weight is:"+" "+ weight_int);
+}
 
 //___________ Task # 8________________
 
