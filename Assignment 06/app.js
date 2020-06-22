@@ -301,25 +301,176 @@ var mS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct
 //  document .write("Your Age is: "+ age +"<br>");
 //  document.write("You birth year is: "+ birth_year)
  
-//___________ Task # 15________________
+// //___________ Task # 15________________
 
-var Customer_Name = "Waqar Ahmad"
-var Current_Month =  "June"
-var Number_of_units = 480
-var Charges_per_unit = 15
-var Net_Amount_Payable_indate = (Number_of_units*Charges_per_unit)
-Net_Amount_Payable_indate = Number(Net_Amount_Payable_indate.toFixed(2))
-var Late_Payment_Surcharge = 350
-var Gross_Amount_Payable_after =  (Net_Amount_Payable_indate + Late_Payment_Surcharge)
-Gross_Amount_Payable_after = Number(Gross_Amount_Payable_after.toFixed(2))
-document.write("<h2>"+ "K-ELECTIC BILL"+"</h2>")
-document.write("Customer Name: " + Customer_Name +"<br>")
-document.write("Billing Month: " +Current_Month +"<br>")
-document.write("Number of units: " + Number_of_units +"<br>")
-document.write("Charges per Unit: " + Charges_per_unit +"<br>"+"<br>")
-document.write("Net Amount Payable (within Due Date) : " + Net_Amount_Payable_indate +"<br>")
-document.write("Charges per unit: " + Late_Payment_Surcharge +"<br>")
-document.write("Gross Amount Payable (after Due Date): " + Gross_Amount_Payable_after +"<br>")
+// var Customer_Name = "Waqar Ahmad"
+// var Current_Month =  "June"
+// var Number_of_units = 480
+// var Charges_per_unit = 15
+// var Net_Amount_Payable_indate = (Number_of_units*Charges_per_unit)
+// Net_Amount_Payable_indate = Number(Net_Amount_Payable_indate.toFixed(2))
+// var Late_Payment_Surcharge = 350
+// var Gross_Amount_Payable_after =  (Net_Amount_Payable_indate + Late_Payment_Surcharge)
+// Gross_Amount_Payable_after = Number(Gross_Amount_Payable_after.toFixed(2))
+// document.write("<h2>"+ "K-ELECTIC BILL"+"</h2>")
+// document.write("Customer Name: " + Customer_Name +"<br>")
+// document.write("Billing Month: " +Current_Month +"<br>")
+// document.write("Number of units: " + Number_of_units +"<br>")
+// document.write("Charges per Unit: " + Charges_per_unit +"<br>"+"<br>")
+// document.write("Net Amount Payable (within Due Date) : " + Net_Amount_Payable_indate +"<br>")
+// document.write("Charges per unit: " + Late_Payment_Surcharge +"<br>")
+// document.write("Gross Amount Payable (after Due Date): " + Gross_Amount_Payable_after +"<br>")
+
+
+//  =================================================================================
+                                    // CHAPTER 36-38        (Functions)
+// ===================================================================================
+//  //___________ Task # 1________________
+// function show_date(){
+//     document.write(Date())
+// }
+
+// show_date()
+// //___________ Task # 2________________
+// function fullname_greet(first_name, last_name,){
+    
+//     var full_name = first_name +" "+ last_name
+//     document.write("Welcome "+ full_name +" to the Sylani Smit ")
+// }
+
+// fullname_greet( "ateeq","akram")
+
+// //___________ Task # 3________________
+// function num_sum(a,b){
+//     var a = prompt("Enter your first number");
+//     var a = prompt("Enter your first number");
+//     var c = (+a)+(+b);
+//     document.write("Sum  of numbe1 and number2  = "+ c)
+
+// }
+
+// num_sum(0,0)
+
+
+// //___________ Task # 4________________
+// function num_sum2(num1, opr ,num2){
+//     if(opr === '+'){
+//         var c = (+num1)+(+num2);
+//         document.write( num1 + opr + num2+   "="+ " "+ c +"<br>")
+//     }
+//     if(opr === '-'){
+//         var c = (+num1)-(+num2);
+//         document.write( num1 + opr + num2+   "="+ " "+ c +"<br>")
+//     }
+//     if(opr === '*'){
+//         var c = (+num1)*(+num2);
+//         document.write( num1 + opr + num2+   "="+ " "+ c +"<br>")
+//     }
+//     if(opr === '/'){
+//         var c = (+num1)/(+num2);
+//         document.write(  num1 + opr + num2+   "="+ " "+ c +"<br>")
+//     }
+//     if(opr === '%'){
+//         var c = (+num1)%(+num2);
+//         document.write( num1 + opr + num2+   "="+ " "+ c +"<br>")
+//     }
+       
+       
+    
+//     }
+    
+//     num_sum2(12,"+",23)
+//     num_sum2(23,"*",45)
+
+
+// //___________ Task # 5________________
+// function squar(a){
+//     document.write(a*a)
+// }
+
+// squar(3)
+// //___________ Task # 6________________
+
+// function factorial(a){
+//     if(a > 0 ){
+//         return a* factorial(a)
+        
+//     }
+// }
+
+// //___________ Task # 7________________
+// function count(start,end){
+// for(i = start; i<= end; i++){
+// document.write(i + ",")
+// }
+// }
+
+// count(1,10)
+// //___________ Task # 8________________
+// function hypo(base, prependicular){
+//     function squar(a){
+//         var c =a*a
+//         return c
+//     }
+
+//     var hypotan = (squar(base)+squar(prependicular))**0.5
+//     hypoton2 =Math.round(hypotan)
+//     document.write("The value of Hypotinous is: " +hypoton2)
+// }
+
+// hypo(12,23)
+
+// //___________ Task # 9________________
+// function rect_area(width, height){
+//     var area = width*height
+//     document.write ("Area of rectangle = "+ area)
+// }
+
+// rect_area(12,12)
+// rect_area(width= 12,height = 23)
+
+// //___________ Task # 10________________
+// function palindome(a){
+
+//     for(i=a.length-1; i>=0; i--){
+//          var reverse = a[i]
+         
+//     }
+//     for (i= 0;i<a.length; i++){
+//         var original = a[i]
+//     }
+//     if(reverse === original){
+//         document.write("The given word is palindome")
+//     }else
+//     document.write("oops try again")
+// }
+// palindome("civic")
+
+//___________ Task # 11________________
+// // function title(para){
+//     var user_input = prompt("Please enter a string")
+//  document.write("User Input:"+" "+ user_input+"<br>")
+ 
+// var lower = user_input.toLowerCase().split("")
+// for(i = 0 ;i<user_input.length;i++){
+
+//     lower[i] = lower[i].toUpperCase() + lower[i].slice(1)
+//     document.write(lower+"<br>")
+// }
+
+
+// // }
+
+//___________ Task # 12_______________
+
+
+
+//___________ Task # 13________________
+
+
+//___________ Task # 14________________
+
+
 
 //  =================================================================================
                                     // CHAPTER 36-38        (DATE METHODA)
@@ -354,7 +505,6 @@ document.write("Gross Amount Payable (after Due Date): " + Gross_Amount_Payable_
 
 
 //___________ Task # 10________________
-
 
 
 
