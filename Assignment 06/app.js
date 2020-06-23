@@ -446,34 +446,49 @@ var mS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct
 // }
 // palindome("civic")
 
-//___________ Task # 11________________
-// // function title(para){
+// //___________ Task # 11________________
+// function title(){
 //     var user_input = prompt("Please enter a string")
 //  document.write("User Input:"+" "+ user_input+"<br>")
  
-// var lower = user_input.toLowerCase().split("")
-// for(i = 0 ;i<user_input.length;i++){
-
-//     lower[i] = lower[i].toUpperCase() + lower[i].slice(1)
-//     document.write(lower+"<br>")
+// var lower = user_input.toLowerCase()
+//  var title_case =lower[0].toUpperCase() +lower.slice(1)
+// document.write(title_case)
 // }
 
-
-// // }
-
-//___________ Task # 12_______________
-
-
-
+//  title()
+// //___________ Task # 12_______________
+// function long_text(){
+//     var text = prompt("Enter text")
+    
+//     document.write(text.length)
+// }
+// long_text()
 //___________ Task # 13________________
 
 
-//___________ Task # 14________________
+// //___________ Task # 14________________
+
+// function cirlce_prop(r){
+// var pai = 3.142;
 
 
+// function calcCircumference(){
+//      var circumference = 2 *pai*r;
+//      return circumference.toFixed(2)
+// }
+// function calcarea(){
+//     var area = pai*r*r;
+//     return area.toFixed(2)
+// }
+// document.write("circumference of circle = " + calcCircumference() +"<br>")
+// document.write("area of circle = " + calcarea())
+// }
+
+// cirlce_prop(3)
 
 //  =================================================================================
-                                    // CHAPTER 36-38        (DATE METHODA)
+                                    // CHAPTERS
 // ===================================================================================
 //  //___________ Task # 1________________
 
