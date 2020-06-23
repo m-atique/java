@@ -448,23 +448,38 @@ var mS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct
 
 // //___________ Task # 11________________
 // function title(){
-//     var user_input = prompt("Please enter a string")
-//  document.write("User Input:"+" "+ user_input+"<br>")
+//     var str = prompt("Please enter a string")
+//  document.write("User Input:"+" "+ str+"<br>")
  
-// var lower = user_input.toLowerCase()
-//  var title_case =lower[0].toUpperCase() +lower.slice(1)
-// document.write(title_case)
+//  var str = str.toLowerCase().split(' ')
+// for( var i=0;i<str.length; i++){
+//  str[i] =str[i].charAt(0).toUpperCase() +str[i].slice(1)
+// }
+// return str.join(' ')
+
 // }
 
-//  title()
+//  document .write(title())
+
+
+
+
+
 // //___________ Task # 12_______________
-// function long_text(){
+// // function long_text(){
 //     var text = prompt("Enter text")
+// text = text.split(' ')
+
+
+
+// // for (i=0; i<text.length;i++){
+// // text =text[i].length
+// //  }
+
     
-//     document.write(text.length)
-// }
-// long_text()
-//___________ Task # 13________________
+// // }
+// // long_text()
+// //___________ Task # 13________________
 
 
 // //___________ Task # 14________________
