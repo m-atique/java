@@ -466,19 +466,22 @@ var mS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct
 
 
 // //___________ Task # 12_______________
-// // function long_text(){
-//     var text = prompt("Enter text")
-// text = text.split(' ')
-
-
-
-// // for (i=0; i<text.length;i++){
-// // text =text[i].length
-// //  }
+ function long_text(){
+    var text = prompt("Enter text")
+    text = text.split(' ')
+    var longest = 0
+    var word = null;
+    for (i=0; i<text.length;i++){
+    if(text[i].length> longest){
+          longest = text[i].length 
+            word =  text[longest]
+    }
+    return word
 
     
-// // }
-// // long_text()
+ }
+}
+ document.write( long_text())
 // //___________ Task # 13________________
 
 
