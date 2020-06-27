@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="app.js"></script>
+<body>
+    <div class="main">
+        <div class="resulpanal">
+            <div class="history">
+                <textarea name="" class ="show_history" id="show_history" cols="22" rows="3" readonly="readonly"></textarea>
+            </div>
+            <div class="uer_input">
+                <input class="show_input" id ="show_input" readonly="readonly" type="text">
+            </div>
+            <div class="result">
+                <input  class="show_result" id ="show_result" readonly="readonly" type="text">  
+            </div>
+        </div>
+        <div class="btnpanal">
+            <div class="btnrow">
+                <button id = "btn" class = "btns" onclick = "getnumber('7')">7</button>
+                <button id = "btn" class = "btns" onclick = "getnumber('8')">8</button>
+                <button id = "btn" class = "btns" onclick = "getnumber('9')">9</button>
+                <button id = "btn" class = "btns" onclick = "getnumber('*')">x</button>
+                
+            </div>                      
+            <div class="btnrow">
+                <button id = "btn" class = "btns" onclick = "getnumber('4')">4</button>
+                <button id = "btn" class = "btns" onclick = "getnumber('5')">5</button>
+                <button id = "btn" class = "btns" onclick = "getnumber('6')">6</button>
+                <button id = "btn" class = "btns" onclick = "getnumber('/')">/</button>
+            </div>
+            <div class="btnrow">
+                <button id = "btn" class = "btns" onclick = "getnumber('1')">1</button>
+                <button id = "btn" class = "btns" onclick = "getnumber('2')">2</button>
+                <button id = "btn" class = "btns" onclick = "getnumber('3')">3</button>
+                <button id = "btn" class = "btns" onclick = "getnumber('+')">+</button>
+            </div>
+            
+            <div class="btnrow">
+                <button id = "btn" class = "btns" onclick = "getclear()">AC</button>
+                <button id = "btn" class = "btns" onclick = "getnumber('0')">0</button>
+                <button id = "btn" class = "btns" onclick = "getresult()">=</button>
+                <button id = "btn" class = "btns" onclick = "getnumber('-')">-</button>
+            </div>
+            </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
