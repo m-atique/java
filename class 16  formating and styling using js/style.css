@@ -1,0 +1,14 @@
+.hidden{
+    display: none;
+}
+.pic1{
+    width:500px;
+    height: 300px;
+    box-shadow: 0 3px 30px green;
+}
+
+.pic2{
+    width:500px;
+    height: 300px;
+    box-shadow: 0 3px 40px red;
+}
