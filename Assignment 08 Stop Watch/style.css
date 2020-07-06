@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+.main{
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    background-image: radial-gradient(  #0cbfd6, rgb(124, 124, 231));
+    margin-top: 50px;
+    position: relative;
+    
+    
+}
+
+.heading,.counter, .btns{
+    position: absolute;
+}
+.heading{
+    top:30px;
+    left: 25%;
+    right:25%;
+    font-size: 30PX;
+    font-weight: 900;
+    color:#ffff
+
+}
+/* --------------------------buttons csss--------------- */
+.btns{
+    bottom:80px;
+    left: 5%;
+    right:5%;
+
+}
+.st,.stp,.res{
+    width:100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    display:inline-block;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.st{
+    background-image: linear-gradient(green 50% ,rgba(14, 107, 14, 0.849) 40%);
+}
+.stp{
+    background-image: linear-gradient(red 50% ,rgba(235, 38, 38, 0.918) 40%);
+}
+.res{
+    background-image: linear-gradient(rgb(172, 172, 8) 50% ,rgb(201, 201, 7) 40%);
+}
+
+/* ---------------------- counter css----------- */
+.counter{
+    left:15%;
+    top: 30%;
+}
+.min, .sec,.centi{
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: inline-block;
+    color:white;
+    border: 1px solid white;
+  
+    font-size: 50px;
+    font-family: 'Lucida Sans';
+    }
