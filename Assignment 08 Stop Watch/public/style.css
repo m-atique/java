@@ -1,4 +1,5 @@
 body{
+    width:100%;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -20,24 +21,24 @@ body{
 }
 .heading{
     top:30px;
-    left: 25%;
-    right:25%;
-    font-size: 30PX;
+    left: 20%;
+    right:20%;
+    font-size: 25PX;
     font-weight: 900;
     color:#ffff
 
 }
 /* --------------------------buttons csss--------------- */
 .btns{
-    bottom:80px;
+    bottom:60px;
     left: 5%;
     right:5%;
 
 }
 .st,.stp,.res{
-    width:100px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    width:70px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     color: white;
     display:inline-block;
     border: none;
@@ -54,22 +55,28 @@ body{
 .res{
     background-image: linear-gradient(rgb(172, 172, 8) 50% ,rgb(201, 201, 7) 40%);
 }
+.btnfocus:focus{
+    outline: none;
+    box-shadow: 0 0 15px white;
+}
 
 /* ---------------------- counter css----------- */
 .counter{
-    left:15%;
+    left:10%;
     top: 30%;
+    right:10%;
 }
 .min, .sec,.centi{
     
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 60px;
     display: inline-block;
     color:white;
     border: 1px solid white;
   
-    font-size: 50px;
-    font-family: 'Lucida Sans';
+    font-size: 40px;
+    font-family: Cambria;
+
     }
+    
