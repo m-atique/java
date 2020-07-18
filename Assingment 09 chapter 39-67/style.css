@@ -1,0 +1,69 @@
+.photo{
+    width: 200px;
+    height: 200px;
+}
+
+.pic1{
+    margin: 20px;
+    width:600px;
+    height: 350px;
+    box-shadow: 0 3px 30px green;
+}
+
+.pic2{
+    margin: 20px;
+    width:600px;
+    height: 350px;
+    box-shadow: 0 3px 40px red;
+}
+
+.cn_bck{
+        width:300px;
+        height:300px;
+        background-color: cadetblue;
+        position: relative;
+        }
+.counter{
+    color:white;
+    font-size: 72px;
+    position: absolute;
+    top:20px;
+    left: 120px;
+    
+    }
+
+
+    .btns{
+        position: absolute;
+        bottom:60px;
+        left: 20%;
+        right:20%;
+    
+    }
+    .st,.stp,.res{
+        width:70px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        color: white;
+        display:inline-block;
+        border: none;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+    
+    .st{
+        background-image: linear-gradient(green 50% ,rgba(14, 107, 14, 0.849) 40%);
+    }
+    .stp{
+        background-image: linear-gradient(red 50% ,rgba(235, 38, 38, 0.918) 40%);
+    }
+    .res{
+        background-image: linear-gradient(rgb(172, 172, 8) 50% ,rgb(201, 201, 7) 40%);
+    }
+    .btnfocus:focus{
+        outline: none;
+        box-shadow: 0 0 15px white;
+    }
+table, td{
+    padding: 10px;
+}
