@@ -32,10 +32,15 @@ var cnn = document.getElementsByTagName("tr");
 
 function deleterow(x){
     var tb=document.getElementById("myTable")
-    var 
+    var tb_row = document.getElementById("tb_row")
     var  tb_btn = document.getElementsByClassName("table_btn")
     for(i=0;i<tb_btn.length;i++){
-        for(j=0;j<)
+        for(j=1;j<tb_row;j++){
+            if (j==i){
+                tb.deleteRow(j)
+
+            }
+        }
     }
     console.log(tb_btn)
     // tb.deleteRow(x)
