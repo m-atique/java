@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <!-- --------------------------------------------------------------------------------Css file & bootstrap link -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css">
+</head>
+<body>
+<!-- .................................................main page -->
+<div class="outerbody">
+    <div class="pic">
+        <h1>QUIZ APP</h1>
+    </div>
+    <div class="control">
+        <button id = "exam_btn" onclick = "take_quiz()" >EXAM</button>
+        <button onclick = "generate_quiz()">Genrate quiz</button>
+        
+    </div>
+</div>
+
+<!-- ---------------------------------------------------------------------------------------------------quiz generating div -->
+<div  id = "paper"class="appbody col-lg-8 col-md-6 col-sm-12 col-8 text-center">
+        
+    <h1 class =" qsf_head" >QUIZ SAVING FORM</h1>
+    <table>
+        <tr>
+            <td>
+                <label for="quiz" class = "qlabel ">Question</label>
+            </td>
+            <td>
+                <input type="text" id = "quiz" class =" quiz_input  form_item ">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="ans1">a.</label> 
+            </td>
+            <td>
+                <input type="text" id = "ans1" class = "options form_item">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="ans2">b.</label> 
+            </td>
+            <td>
+                <input type="text" id = "ans2" class = "options form_item">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="ans3">c.</label> 
+            </td>
+            <td>
+                <input type="text" id = "ans3" class = "options form_item">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="ans4">d.</label> 
+            </td>
+            <td>
+                <input type="text" id = "ans4" class = "options form_item">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="correct"  class = "qlabel">Correct Ans.</label> 
+            </td>
+            <td>
+                <input type="text" id = "correct" class = "options form_item">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="02" class = "text-center p-3">
+                <button  id = "save"  class = "tb_btn"  onclick = "addquiz()" >ADD QUiz</button>
+                <button  id = "reset" class = "tb_btn"  onclick = "reset()">RESET</button>
+            </td>
+        </tr>
+    </table>
+
+</div>
+<!-- -------------------------------------------------------------------exam div -->
+<div  id = "exam" class="examdiv col-8 col-lg-8 col-sm-12 col-md-6 bg-success">
+    <div class="heading col-8 col-lg-8 col-sm-12 col-md-6 bg-light">
+        <div  id = "ins" class="instructions">
+            <h2> QUIZ INSTRUCTIONS</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ducimus animi itaque! Dolorum itaque, doloremque sint rem pariatur odio maxime quod corporis dicta excepturi quas! Dicta beatae itaque dolorum sed.</P>
+            <button onclick = "start_quiz()">START</button>
+        </div>
+    </div>
+    <button  id = "nxt_btn" onclick="next_quiz()">Next</button>
+</div>
+
+<!------------------------------------------------------------------------------------------------Java script link  -->
+<script src="app.js"></script>
+</body>
+</html>

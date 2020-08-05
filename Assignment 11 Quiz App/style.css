@@ -1,0 +1,70 @@
+
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-============================================= quizform css */
+.appbody{
+    background-color: darkslateblue;
+    margin:  50px auto !important;
+    height: 520px; 
+    border-radius: 5px; 
+    display: none;
+   
+}
+
+table{
+    margin:  40px auto;
+    text-align: left;
+    color: white;
+}
+td{
+    padding: 5px;
+}
+.form_item{
+    width: 400px;
+    border-radius: 50px;
+    padding: 5px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.qlabel{
+    text-align:;
+    padding-right: 5px;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 5px;
+    background-color:white;
+    color: darkslateblue;
+}
+.tb_btn{
+    width: 100px;
+    padding: 3px;
+    background-color: white;
+    color: darkslateblue;
+    border-radius: 50px;
+    border: 1px solid white;
+    margin: 5px;
+    font-weight: bolder;
+}
+.qsf_head{
+    
+    background-color: white;
+    border: 1px solid darkslateblue;
+    border-radius: 10px;
+    padding: 10px; 
+}
+
+/* ------------------------------------------------------------------------------ exam  div css */
+.examdiv{
+    display:none;
+    width: 100px;
+    
+    
+}
+.answers{
+    display:block;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+#nxt_btn{
+    /* display: none; */
+}
