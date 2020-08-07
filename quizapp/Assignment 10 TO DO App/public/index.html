@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css">
+</head>
+<body>
+    <div class="container col-md-7 col-sm-5 col-lg-6 bg-info  text-center todo_body">
+        <div class="heading">TODO<span>LIST</span> </div>
+        <div>
+
+            
+            <input placeholder = "Enter task"  id ="todo_task" type="text" class = "col-sm-6 col-md-6 col-lg-6 task">   
+            <button onclick = "addtask()" class =" ok_btn ">+</button>
+            <button onclick = "del_all()" class ="delete_btn" >Del</button>
+            <div class ="choice" >
+                <input type="radio" name="prefer" id=""class ="col-md-1 col-1" >Urgent
+                <input type="radio" name="prefer" id=""class ="col-md-1 col-1" >Important
+                <input type="radio" name="prefer" id=""class ="col-md-1 col-1" >Normal
+            </div>
+    </div>
+
+    <div class ="list_div">
+        <ul id="list">
+
+        </ul>
+    </div>
+    
+    
+    
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
+<!-- -------------------------------------------------code for 2nd version -->
+
+<!-- <div class="input_modal  col-md-10 col-sm-10 col-lg-10" id = "input_modal">> -->
+    <!-- <div class="bottom col-md-12 col-sm-12 col-lg-12">
+       
+        <h1 class ="add" onclick ="show_modal()">+</h1>
+    </div> -->

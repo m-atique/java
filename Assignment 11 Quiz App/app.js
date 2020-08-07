@@ -1,137 +1,98 @@
-var generate = document.getElementById("paper")
-var exm = document.getElementById("exam")
-var start= document.getElementById("ins")
-var nxt = document.getElementById("nxt_btn")
-
-var q= document.getElementById("quiz")
-var a = document.getElementById("ans1")
-var b = document.getElementById("ans2")
-var c = document.getElementById("ans3")
-var d = document.getElementById("ans4")
-var z = document.getElementById("correct")
-
-
-var no_of_quiz = 0;
-var slide =[]
+var outerbox = document.getElementById("outerbox")
+var innerbox = document.getElementById("innerbox")
+var user_name = document.getElementById("user_name")
+var user = document.getElementById("user")
+var mcq = document.getElementById("mcq")
+var quiz_no = document.getElementById("quiz_no")
+var no_of_quiz =0;
+var score = 0;
 
 
 
-function generate_quiz(){
-    exm.style.display = "none"
-    generate.style.display = "block"
-    
+outerbox.style.display="block"
+innerbox.style.display="none"
+function show_innerbox(){
+    outerbox.style.display="none"
+    innerbox.style.display="block"
+    user.innerHTML= user_name.value
+    exam()
+
 }
-function take_quiz(){
-    console.log(slide)
-    generate.style.display = "none"
-    exm.style.display = "block"
-    nxt.style.display = "none"
-    start.style.display = "block"
-    for(i=0;i<slide.length;i++){
-        slide[i].sty.display="none"
-    }
+function show_outerbox(){
+    innerbox.style.display="none"
+    outerbox.style.display="block"
+
+}
+
+// ------------------------------------------------------------------questions
+
+quiz=[
+    {
+        "qz" : "What is the Basic Unit of memory?",
+        "ans" : "Bit",
+        "options": ["Bytes","Bit","Mb","Gbs"],
+
+    },
+    {
+        "qz" : "What is python",
+        "ans" : "Computer language",
+        "options": ["animal","Cpu_part", "devops","Computer laguage"],
+
+    },
     
+        
+]
+// ---------------------------------------------------------------------------------
+function exam(){
+    for(i=no_of_quiz;i<quiz.length;i++){
+        var q= document.createElement("h4")
+        q.setAttribute("class","quiz col-8")
+        var q_text = document.createTextNode(quiz[i]["qz"])
+        q.appendChild(q_text)
+        mcq.appendChild(q)
+      
+        for(j=0;j<quiz[i]["options"].length;j++){
+            var op = document.createElement("input")
+            op.setAttribute("type","radio")
+            op.setAttribute("name","option")
+            op_labl = document.createElement("label")
+            op_text = document.createTextNode(quiz[i]["options"][j])
+            op_labl.setAttribute("class","ops col-6")
+            op_labl.appendChild(op)
+            op_labl.appendChild(op_text)
+            mcq.appendChild(op_labl)
+
+        }
+        var nxt = document.createElement("button")
+        nxt.setAttribute("class","outerbox_btn")
+        nxt_text = document.createTextNode("Next")
+        nxt.setAttribute("onclick","next_quiz()")
+        nxt.appendChild(nxt_text)
+        mcq.appendChild(nxt)
+
+        no_of_quiz++
+        quiz_no.innerHTML= no_of_quiz
+        break
+       
+    }
    
 }
 
-
-    
-function reset(){
-    
-    q.value ="";
-    a.value ="";
-    b.value ="";
-    c.value ="";
-    d.value ="";
-    z.value =""; 
+function next_quiz(){
+    if(no_of_quiz !== quiz.length){
+        mcq.innerHTML=""
+        exam() 
     }
-function addquiz(){    
-    var quizmodal = document.createElement("div")
-    quizmodal.setAttribute("class","col-md-6 col-sm-6 col-lg-6 col-6 bg-warning mb-5")
-
-    var qz= document.createElement("h4")
-    var hd = document.createTextNode(q.value)
-    qz.appendChild(hd)
-    quizmodal.appendChild(qz)
-    exm.appendChild(quizmodal)
-
-    var op1 = document.createElement("input")
-    op1.setAttribute("type","radio")
-    op1.setAttribute("name","ans")
-    op1.setAttribute("class","answers")
-    var op1_text =document.createTextNode(a.value)
-    op1.appendChild(op1_text)
-    quizmodal.appendChild(op1)
-
-    var op2 = document.createElement("input")
-    op2.setAttribute("type","radio")
-    op2.setAttribute("name","ans")
-    op2.setAttribute("class","answers")
-    var op2_text =document.createTextNode(b.value)
-    op2.appendChild(op2_text)
-    quizmodal.appendChild(op2)
-
-    var op3 = document.createElement("input")
-    op3.setAttribute("type","radio")
-    op3.setAttribute("name","ans")
-    op1.setAttribute("class","answers")
-    var op3_text =document.createTextNode(c.value)
-    op3.appendChild(op3_text)
-    quizmodal.appendChild(op3)
-
-    var op4 = document.createElement("input")
-    op4.setAttribute("type","radio")
-    op4.setAttribute("name","ans")
-    op4.setAttribute("class","answers")
-    var op4_text =document.createTextNode(d.value)
-    op4.appendChild(op4_text)
-    quizmodal.appendChild(op4)
-
-    no_of_quiz++
-    quizmodal.setAttribute("id",no_of_quiz)
-    var quiz = document.getElementById(no_of_quiz)
-    slide += quiz
-    console.log(slide)
-
-    
-}
-function start_quiz(){
-    start.style.display = "none"
-    nxt.style.display = "block"
-   // slide.style.display ="block"
-    
-    // for (i=1;i<=no_of_quiz;i++){
-    //     if(i>1){
-    //         var hiden_slides = document.getElementById(i)
-    //         hiden_slides.style.display= "none"
-
-    //     }
-    // }
-
-    
-}
-
-
-
-// function next_quiz(){ 
-//     for (i=1;i<=no_of_quiz;i++){
+    else{
+        mcq.innerHTML=""
+        var score = document.createElement("button")
+        score.setAttribute("class","outerbox_btn")
+        score_text = document.createTextNode("Score")
+        score.setAttribute("onclick","score_quiz()")
+        score.appendChild(score_text)
+        mcq.appendChild(score)
         
-//             var hiden_slides = document.getElementById(i)
-//             hiden_slides.style.display= "none"
 
-//         }
-//     }
-
-
-
-
-//     slide.style.display ="none"
-
-
-//     var nxt_slide = document.getElementById(no_of_quiz+1)
-//     console.log(nxt_slide)
-//     nxt_slide.style.display ="block"
-
-//  }
-
-
+    }
+   
+}    
