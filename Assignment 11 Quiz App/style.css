@@ -8,11 +8,11 @@ body{
 }
 .outerbox{
     border: 1px solid white;
-    background-color: rgba(233, 227, 148, 0.418);
+    background-color: rgba(127, 231, 96, 0.548);
     border-radius: 10px;
-    height: 50em;
+    height: 480px;
     position: sticky;
-    margin-top: 10%;
+    margin-top: 7%;
     padding: 80PX;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  
@@ -24,7 +24,7 @@ body{
     border: 2px solid white;
     border-radius: 5px;
     color: white;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-right: 10px;
     font-size: 14px;
 }
@@ -48,6 +48,7 @@ body{
     border-bottom: 2px solid white;
     margin-top: 100px;
     margin-right: 10px;
+    font-size: 20px;
 
 }
 
@@ -66,4 +67,11 @@ body{
     padding: 3px;
     background-color: rgba(230, 222, 222, 0.486);
     font-size: 14px;
+}
+.usernm{
+    
+    border-bottom: 0.7px dotted rgba(255, 255, 255, 0.87);
+    color: white;
+    margin-left: 5px;
+
 }

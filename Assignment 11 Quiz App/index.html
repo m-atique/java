@@ -10,18 +10,19 @@
 
 </head>
 <body>
-    <div class="container col-md-8, col-lg-8, col-sm-8 outerbox text-center " id = "outerbox">
+    <div class="container col-md-8, col-lg-8, col-sm-8 outerbox text-center  " id = "outerbox">
         <div class="startpage container col-md-8, col-lg-8, col-sm-12">
-            <h1>Enter Your Name</h1>
+            <h1 class = "text-light col-12">Enter Your Name</h1>
             <input class = "inputs" type="text" id = "user_name"> 
             <button class ="outerbox_btn" onclick ="show_innerbox()" id = "start">Start</button>
         </div>
     </div>
         <div class="outerbox container col-md-8, col-lg-8, col-sm-8 text-left p-4"  id = "innerbox">
-            <div class="heading row bg-primary p-3">
-                <button class ="outerbox_btn m-0 col-md-2 " onclick ="show_outerbox()" id = "hme">Home</button>
-                <h1 id = "user" class = " text-center  col-md-3 bg-warning ">user name</h1>
-                <h3 class =" text-center col-md-2 bg-warning" id ="quiz_no">quiz number</h3>
+            <div class="heading row ">
+                <button class ="outerbox_btn ml-3 col-3  " onclick ="show_outerbox()" id = "hme">Home</button>
+                <h4 id = "user"  class = " text-center  text-light col-8 pb-0 usernm">user name</h4>
+                <h5 class = " text-center  col-9 text-light ">Quiz No</h5>
+                <h5 class =" text-center col-3 text-light" id ="quiz_no">quiz number</h5>
             </div>
         <div class="mcq " id = "mcq">
             
