@@ -1,14 +1,14 @@
 body{
     margin:0 ;
     padding: 0;
-    background-image: url(pics/bckground.jpg);
+    background-image: radial-gradient(rgba(195, 0, 255, 0.767),rgba(128, 0, 128, 0.76));
     background-size: cover;
     display: flex;
     align-items: center;    
 }
 .outerbox{
     border: 1px solid white;
-    background-color: rgba(127, 231, 96, 0.548);
+    background-color: rgba(21, 34, 41, 0.931);
     border-radius: 10px;
     height: 480px;
     position: sticky;
@@ -74,4 +74,8 @@ body{
     color: white;
     margin-left: 5px;
 
+}
+.app_head{
+    font-size: 52px;
+    font-weight: 900;
 }
