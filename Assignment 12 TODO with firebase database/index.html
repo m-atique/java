@@ -15,12 +15,15 @@
         TODO<span>APP</span>
     </h1>
     <div class=" container col-11 col-lg-11 col-md-11 col-sm-11 innerbox1">
-        <input type="text" class=" col-lg-9 col-md-9 col-sm-9 col-9 task" placeholder="Enter Task Here">
-        <button class="add_btn"><i class="fa fa-plus-circle text-light fa-2x plus"></i></button>
+        <input type="text" id = "task_input" class=" col-lg-9 col-md-9 col-sm-9 col-9 task" placeholder="Enter Task Here">
+        <button class="add_btn" onclick = "add_todo()"><i class="fa fa-plus-circle text-light fa-2x plus"></i>add</button>
     </div>
-    <div class="container col-lg-9 col-md-9-col-sm-9- col-9 innerbox2">
-        <button class="dell_btn"><i class="fa fa-trash text-light fa-2x plus"></i></button> 
+    <div class="container col-lg-9 col-md-9-col-sm-9- col-9 innerbox2" id = "panal">
+        
 
+    </div>
+    <div class="container">
+        <button class="dell_btn"><i class="fa fa-trash text-light fa-2x plus"></i>dell</button>
     </div>
     <div class="container col-lg-12 col-md-12 col-sm-12 col-12 text-left  footer">
         <p>Power by SMIT(0333-8722136)</p>

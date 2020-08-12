@@ -1,5 +1,5 @@
 .outerbox{
-    margin-top: 60px;
+    margin-top: 30px;
     background-color: rgb(107, 27, 107);
     border-radius: 10px;
     padding: 10px;
@@ -45,26 +45,51 @@ span{
 /* /---------------------------------------------------------- inner box 02*/
 .innerbox2{
     height:20em;
-    background-color: rgb(246, 141, 193);
+    background-color: rgb(247, 177, 212);
     margin-top: 20px;
     border-radius: 8px;
     overflow: hidden;
     overflow-y: scroll;
+    scrollbar-width: 14px;
+    scrollbar-arrow-color: turquoise;
 }
 .dell_btn{
-    position: relative;
-    top: 18.4em;
-    left: 65%;
+     position: relative;
+     top: -5px;
+    left: 48%; 
     border: none;
     background: transparent;
     border-radius: 50px; 
 }
 .footer{
-    margin-top: 6px;
-    padding: 2px;
+    margin-top: -8px;
+    
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     background: rgb(229, 243, 40);
 }
+
+.todo{
+    background: transparent;
+    border: none;
+    
+}
+.todo:focus{
+    outline: none;
+}
+.tododiv{
+    height: 30px;
+    border-radius: 50px;
+    background: white;
+}
+.panal_btn{
+    background: transparent;
+    border: none;
+}
+.panal_btn:focus{
+    outline:none;
+
+}
+
 
 
