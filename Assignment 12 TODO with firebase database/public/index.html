@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO App</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
+    <script src="https://use.fontawesome.com/c664105245.js"></script>
+    <!-- firebase links -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAUsPD5dJ8KvWKikEWviAbsGlw5KXD5EJE",
+    authDomain: "todo-pk.firebaseapp.com",
+    databaseURL: "https://todo-pk.firebaseio.com",
+    projectId: "todo-pk",
+    storageBucket: "todo-pk.appspot.com",
+    messagingSenderId: "395219607968",
+    appId: "1:395219607968:web:7ff4e72b1cf8896107c4c5",
+    
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+    
+   
+
+</head>
+<body>
+<div class="container text-center col-lg-11 col-md-11 col-sm-11 col-11  outerbox">
+    <h1 class="main_heading">
+        TODO<span>LIST</span>
+    </h1>
+    <div class=" container col-12 col-lg-12 col-md-12 col-sm-12  innerbox1 " >
+        <input type="text"  id = "task_input" class=" col-lg-9 col-md-9 col-sm-9 col-9 task  " placeholder="Enter Task Here">
+        <button class="add_btn" onclick = "add_todo()"><i class="fa fa-plus-circle text-light fa-2x plus" alt="ADD"></i></button>
+    </div>
+    <div class="container col-lg-12 col-md-12 col-sm-12- col-12 innerbox2 text-center" id = "panal">
+        
+
+    </div>
+    <div class="container p-3">
+        <button class="dell_btn" onclick ="del_all()"><i class="fa fa-trash text-light fa-2x plus"></i><span class ="tooltip1">Delete All</span></button>
+    </div>
+    <div class="container col-lg-12 col-md-12 col-sm-12 col-12 text-left  footer">
+        <p>Power by SMIT(0333-8722136)</p>
+
+        <script src="app.js"></script>
+    </div>
+</div> 
+
+
+</body>
+</html>

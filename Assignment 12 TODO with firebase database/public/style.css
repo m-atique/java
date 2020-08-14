@@ -25,9 +25,12 @@ span{
     border-radius: 50px;
     color: rgb(107, 27, 107);
     padding: 5px;
+    
 }
 .task:focus{
     outline:none;
+    box-shadow: 0 0 10px black;
+
    }
 .add_btn{
     position: relative;
@@ -39,12 +42,13 @@ span{
 .add_btn:focus{
     outline: none;  
 }
-.add_btn:hover{
-    background-clip: content-box;
+.add_btn:hover .tooltip1{
+  
+    visibility: visible; 
 }
 /* /---------------------------------------------------------- inner box 02*/
 .innerbox2{
-    height:20em;
+    height:18em;
     background-color: rgb(247, 177, 212);
     margin-top: 20px;
     border-radius: 8px;
@@ -55,11 +59,19 @@ span{
 }
 .dell_btn{
      position: relative;
-     top: -5px;
-    left: 48%; 
+     top: -5px; 
+     left: 2em;
     border: none;
     background: transparent;
     border-radius: 50px; 
+}
+.dell_btn:focus{
+    outline: none;
+    text-shadow: 0 0 30px green;
+}
+.dell_btn:hover .tooltip1{
+
+     visibility: visible;
 }
 .footer{
     margin-top: -8px;
@@ -89,6 +101,19 @@ span{
 .panal_btn:focus{
     outline:none;
 
+}
+.tooltip1{
+    visibility: hidden;
+    border-radius: 3px;
+    background:white;
+    color: black;
+    position: relative;
+    padding: 4px;
+    top: -20px;
+    left: 5px;
+} 
+i:hover{
+    text-shadow: 0 0 10px black;
 }
 
 
