@@ -116,7 +116,7 @@ function get_data(){
     var todo = document.createElement("input");
     todo.setAttribute("type","text")  
     todo.setAttribute("id",i)  
-    todo.setAttribute("class"," col-9 col-lg-9 col-md-9 col-sm-9 pl-2 mr-3 todo ")
+    todo.setAttribute("class"," col-8 col-lg-8 col-md-8 col-sm-8 pl-2  todo ")
     todo.setAttribute("value",tsk)
     todo_div.appendChild(todo)
     todo.disabled= true
