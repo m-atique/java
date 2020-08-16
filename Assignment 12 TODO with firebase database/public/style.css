@@ -1,6 +1,6 @@
 .outerbox{
     margin-top: 30px;
-    background-color: rgb(107, 27, 107);
+    background-image: repeating-linear-gradient(40deg,black,rgb(24, 24, 24),black);
     border-radius: 10px;
     padding: 10px;
     height: 32em;
@@ -8,22 +8,22 @@
 .main_heading{
     font-size: 36px;
     font-weight: 900;
-    color:  rgb(107, 27, 107);
+    color:  #080808;
     position: relative;
     top: -33px;
-    background-color: white;
+    background-image: repeating-linear-gradient(30deg,rgb(19, 133, 95), rgb(42, 221, 57) 50% ,rgb(19, 133, 95));
     border-radius: 7px;
-    border: 0.5px solid  rgb(107, 27, 107);
+    /* border: 0.5px solid;   */
     padding: 10px;
     
 }
 span{
-    color: rgb(214, 226, 40);
+    color: rgb(7, 7, 7);
 }
 .task{
     border: none;
     border-radius: 50px;
-    color: rgb(107, 27, 107);
+    color: rgb(27, 31, 49);
     padding: 5px;
     
 }
@@ -49,13 +49,12 @@ span{
 /* /---------------------------------------------------------- inner box 02*/
 .innerbox2{
     height:18em;
-    background-color: rgb(247, 177, 212);
+    background-color: rgb(30, 39, 39);
     margin-top: 20px;
     border-radius: 8px;
     overflow: hidden;
     overflow-y: scroll;
-    scrollbar-width: 14px;
-    scrollbar-arrow-color: turquoise;
+    
 }
 .dell_btn{
      position: relative;
@@ -75,10 +74,11 @@ span{
 }
 .footer{
     margin-top: -8px;
-    
+    color:black;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    background: rgb(229, 243, 40);
+    background-image: repeating-linear-gradient(10deg,rgb(19, 133, 95), rgb(20, 124, 29) 50% ,rgb(19, 133, 95));
+
 }
 
 .todo{
@@ -113,7 +113,7 @@ span{
     left: 5px;
 } 
 i:hover{
-    text-shadow: 0 0 10px black;
+    text-shadow: 0 0 10px rgb(243, 239, 239);
 }
 
 
